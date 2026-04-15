@@ -28,7 +28,7 @@ This project demonstrates the implementation of a structured data-processing pip
 
 ## 📂 Repository Structure
 * `data/`: Original CSV files from NOAA Climate Data Online.
-* `/climate-data-project.ipynb`: Jupyter Notebook with the data processing and visualization logic.
+* `notebooks/`: Jupyter Notebook with the data processing and visualization logic.
 * `report/`: Full analysis, graphs, and conclusions in LaTeX format.
 
 ## 🚀 Future Scope

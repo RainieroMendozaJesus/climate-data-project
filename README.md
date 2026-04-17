@@ -1,40 +1,22 @@
-# 🌡️ Annual Temperature Trends Analysis in Barahona (2000–2020)
+# 🌡️ Atmospheric Thermal Variability in the Dominican Republic: A Retrospective Analysis (2000-2024)
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
+## 🔬 Abstract
+This scientific research aims to quantify and analyze the evolution of atmospheric temperatures in the Dominican Republic during the first quarter of the 21st century. Through a longitudinal analysis of time-series data, the study identifies warming trends, thermal anomalies, and the magnitude of climate change at a regional level, providing rigorous empirical evidence of meteorological alterations within the national territory.
 
-## 📌 Project Description
-Exploratory analysis of historical temperature observations recorded in Barahona, Dominican Republic. This project implements a reproducible workflow to process and aggregate daily meteorological data from NOAA into annual trends (TMAX, TMIN, TAVG).
-
-Detailed findings, statistical discussions, and final visualizations are documented in the accompanying LaTeX report included in this repository.
-
-## ⚙️ Tech Stack & Methodology
-This project demonstrates the implementation of a structured data-processing pipeline using:
+## 🛠️ Tech Stack & Methodology
+To ensure reproducibility and statistical rigor, data processing and visualization are executed within a data science-oriented environment:
 
 * **Language:** Python
-* **Environment:** Jupyter Notebook, Visual Studio Code
-* **Key Libraries:** `matplotlib.pyplot`, `pathlib`, `csv`
-* **Core Logic:** * Parsing and cleaning structured CSV datasets from NOAA.
-    * Manual yearly aggregation of daily observations.
-    * Handling of missing-data and invalid entries.
-    * Computation of annual temperature averages.
-
-## ⚠️ Study Limitations
-* **Local Scope:** Data corresponds to a single meteorological station; results reflect local trends only.
-* **Data Integrity:** Presence of missing observations and incomplete records in specific years.
-* **Timeframe:** Dataset is limited to the 2000–2020 period.
-* **Nature of Study:** This is an exploratory technical implementation, not a definitive climatological assessment.
+* **Data Manipulation & Cleaning:** Parsing and cleaning structured CSV datasets from NOAA. Manual yearly aggregation of daily observations. Handling of missing-data and invalid entries. Computation of annual temperature averages.
+* **Scientific Visualization:** Matplotlib
+* **Key Libraries:** matplotlib.pyplot, pathlib, csv, datetime
 
 ## 📂 Repository Structure
-* `data/`: Original CSV files from NOAA Climate Data Online.
-* `notebooks/`: Jupyter Notebook with the data processing and visualization logic.
-* `report/`: Full analysis, graphs, and conclusions in LaTeX format.
-
-## 🚀 Future Scope
-* Implementation of interactive dashboards (Streamlit/Plotly).
-* Integration of statistical trend significance testing.
-* Expansion to include multiple meteorological stations across the Dominican Republic.
-
----
-*Data Source: [National Oceanic and Atmospheric Administration (NOAA)](https://www.ncdc.noaa.gov/cdo-web/search)*
+```text
+📦 DR-Climate-Analysis-2024
+ ┣ 📂 data/               # Raw (NOAA) and processed datasets (CSV)
+ ┣ 📂 images/             # Graphic resources
+ ┣ 📂 notebooks/          # Jupyter Notebooks containing experimentation and plots
+ ┣ 📂 docs/               # Supplemental documentation and Compiled document with findings and conclusions
+ ┣ 📜 requirements.txt    # Python environment dependencies
+ ┗ 📜 README.md           # This file

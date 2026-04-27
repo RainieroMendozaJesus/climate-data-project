@@ -1,22 +1,28 @@
-# 🌡️ Atmospheric Thermal Variability in the Dominican Republic: A Retrospective Analysis (2000-2024)
+🌡️ DR Climate Data Analysis (2000–2024)
+📌 Overview
 
-## 🔬 Abstract
-This scientific research aims to quantify and analyze the evolution of atmospheric temperatures in the Dominican Republic during the first quarter of the 21st century. Through a longitudinal analysis of time-series data, the study identifies warming trends, thermal anomalies, and the magnitude of climate change at a regional level, providing rigorous empirical evidence of meteorological alterations within the national territory.
+Python-based project focused on cleaning, transforming, and visualizing real-world climate data from the Dominican Republic.
 
-## 🛠️ Tech Stack & Methodology
-To ensure reproducibility and statistical rigor, data processing and visualization are executed within a data science-oriented environment:
+Emphasis on data handling, time-series analysis, and reproducible workflows.
 
-* **Language:** Python
-* **Data Manipulation & Cleaning:** Parsing and cleaning structured CSV datasets from NOAA. Manual yearly aggregation of daily observations. Handling of missing-data and invalid entries. Computation of annual temperature averages.
-* **Scientific Visualization:** Matplotlib
-* **Key Libraries:** matplotlib.pyplot, pathlib, csv, datetime
+⚙️ Tech Stack
 
-## 📂 Repository Structure
-```text
-📦 DR-Climate-Analysis-2024
- ┣ 📂 data/               # Raw (NOAA) and processed datasets (CSV)
- ┣ 📂 images/             # Graphic resources
- ┣ 📂 notebooks/          # Jupyter Notebooks containing experimentation and plots
- ┣ 📂 docs/               # Supplemental documentation and Compiled document with findings and conclusions
- ┣ 📜 requirements.txt    # Python environment dependencies
- ┗ 📜 README.md           # This file
+Python · Matplotlib · CSV · Pathlib · Datetime · Jupyter
+
+🚀 Highlights
+
+Processed raw NOAA datasets with custom CSV parsing
+Implemented data cleaning pipelines for missing and invalid values
+Performed yearly aggregation of daily temperature data
+Built time-series visualizations for trend analysis
+Structured workflows for clarity and reproducibility
+
+📂 Structure
+
+data/        # Raw & processed datasets
+notebooks/   # Analysis per region and Generated plots
+
+💡 Focus
+
+This project showcases practical data skills:
+data cleaning, file handling, and transforming raw data into meaningful insights.
